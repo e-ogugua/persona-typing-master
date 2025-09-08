@@ -1,67 +1,98 @@
-# ⌨️ Persona Typing Master
+# persona-typing-master
 
-**Advanced typing practice app with customizable personas and multiple languages**
+persona-typing-master - Part of the EmmanuelOS ecosystem
 
-## 🎯 Purpose
+## Features
 
-Master your typing skills with a unique twist! Choose from various personas (Hacker, Writer, Engineer, Doctor, Programmer, Teacher, Student) and practice in multiple languages. Perfect for developers, professionals, and anyone looking to improve their typing speed and accuracy.
+- Feature 1
+- Feature 2
+- Feature 3
 
-## ✨ Features
+## Tech Stack
 
-- **Persona Selection** - Choose your typing style and theme
-- **Multi-Language Support** - Practice in English, French, Spanish, and more
-- **Speed Tracking** - Monitor your WPM and accuracy progress
-- **Customizable Themes** - Different visual styles for each persona
-- **Progress Analytics** - Track your improvement over time
-- **Challenge Modes** - Various difficulty levels and text types
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vercel (Deployment)
 
-## 🎭 Available Personas
+## Getting Started
 
-- **Hacker** - Dark theme with code snippets
-- **Writer** - Elegant theme with literary texts
-- **Engineer** - Technical theme with engineering content
-- **Doctor** - Medical theme with healthcare terminology
-- **Programmer** - Code theme with programming languages
-- **Teacher** - Educational theme with academic content
-- **Student** - Study theme with learning materials
+### Prerequisites
 
-## 🚀 Quick Start
+- Node.js 18+
+- npm 9+ or yarn 1.22+
+- Vercel CLI (for deployment)
 
-```bash
-# Install dependencies
-npm install
+### Installation
 
-# Start development server
-npm run dev
+1. Clone the repository
+   ```bash
+   git clone https://github.com/e-ogugua/persona-typing-master.git
+   cd persona-typing-master
+   ```
 
-# Build for production
-npm run build
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Set up environment variables
+   ```bash
+   cp .env.example .env.local
+   # Update the environment variables in .env.local
+   ```
+
+4. Run the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Deployment
+
+This application is deployed on Vercel. Any push to the `main` branch will trigger an automatic deployment.
+
+### Manual Deployment
+
+1. Install Vercel CLI (if not already installed)
+   ```bash
+   npm install -g vercel
+   ```
+
+2. Deploy to Vercel
+   ```bash
+   vercel
+   # or
+   vercel --prod
+   ```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env.local file:
+
+```
+NEXT_PUBLIC_APP_NAME="persona-typing-master"
+NEXT_PUBLIC_APP_URL="https://persona-typing-master.vercel.app"
 ```
 
-## 🌐 Live Demo
+## Contributing
 
-**Typing Practice**: [https://typing.e.ogugua.dev](https://typing.e.ogugua.dev)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 🛠️ Tech Stack
+## License
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📊 Typing Metrics
+## Last Updated
 
-- **WPM (Words Per Minute)** tracking
-- **Accuracy percentage** measurement
-- **Error analysis** and correction tips
-- **Progress charts** and statistics
-- **Personal best** records
-
-## 🔗 Repository
-
-**GitHub**: [https://github.com/e-ogugua/persona-typing-master](https://github.com/e-ogugua/persona-typing-master)
-
----
-
-*Built with ❤️ by Emmanuel Chukwuka Ogugua*
+2025-09-08
